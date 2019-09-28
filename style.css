@@ -1,0 +1,243 @@
+    body {
+        font-family: Verdana, sans-serif;
+    }
+
+    header {
+        height: 145px;
+        width: 100%;
+        background-color: #5A1113;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .banimg {
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        height: 4vw
+    }
+
+    #banimg1 {
+        height: 4vw;
+    }
+
+    nav {
+        width: 100%;
+        height: 40px;
+        background-color: black;
+    }
+
+    nav a {
+        font-size: 30px;
+        margin-left: 2.5vw;
+        padding-bottom: 10px;
+        display: block;
+        float: left;
+        text-decoration: none;
+        color: white;
+        vertical-align: middle;
+    }
+
+    nav a:hover {
+        background-color: white;
+        color: black;
+    }
+
+    #date {
+        text-align: right;
+        margin-right: 2.5vw;
+    }
+
+    .content {
+        width: 95vw;
+        margin-inline: 2.5vw;
+    }
+
+    .flex1 {
+        margin-left: 2.5vw;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .flex2 {
+        margin-right: 1vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .flex3 {
+        margin-left: 2.5vw;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    .flex4 {
+        margin-right: 1vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+
+    .fleximg {
+        width: 30%;
+        position: relative;
+    }
+
+
+    .fleximg img {
+        width: 100%;
+    }
+
+    .text-block {
+        position: absolute;
+        bottom: 0vw;
+        background-color: black;
+        color: white;
+        font-size: 1.2vw;
+        padding-top: 1.5vw;
+        padding-bottom: 1vw;
+        padding-left: 0.5vw;
+        line-height: 2vw;
+    }
+
+    .text-block-bot {
+        position: absolute;
+        bottom: 0vw;
+        background-color: black;
+        color: white;
+        font-size: 1.85vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        padding-left: 0.5vw;
+        line-height: 2vw;
+    }
+
+
+    .newsbar {
+        margin-left: 2.5vw;
+        height: 35px;
+        width: calc(100% -1px);
+        font-size: 28px;
+        background-color: #DEDEDE;
+        color: #4B4B4B;
+
+    }
+
+    .nb2 {
+        width: 100%;
+        height: 35px;
+        font-size: 28px;
+        background-color: #dedede;
+        color: #484848
+    }
+
+    .bannerR {
+        width: 13vw;
+    }
+
+    .bannerM {
+        height: 9vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        padding-bottom: 2vw;
+        margin-left: 5vw;
+
+    }
+
+    .fleximg2 {
+        width: 48%;
+        position: relative;
+    }
+
+    .fleximg2 img {
+        width: 100%;
+
+    }
+
+    .bannerR2 {
+        width: 13vw;
+    }
+
+    .spacer {
+        height: 2vw;
+        width: 100%;
+    }
+
+    footer {
+        height: 200px;
+        background-color: black;
+        text-align: center;
+    }
+
+    .footimg {
+        width: 100%;
+        background-color: black;
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 30px;
+
+    }
+
+    .credits {
+        color: white;
+        display: inline-block;
+    }
+
+    article {
+        text-align: center;
+    }
+
+    h6 {
+        margin-left: 20vw;
+        margin-right: 20vw;
+        font-size: 0.65vw;
+    }
+
+    article p {
+        font-size: 0.9vw;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    @media only screen and (max-width:30em) {
+        div.fleximg {
+            width: 50%;
+        }
+
+        p#date {
+            display: none;
+        }
+
+        a.hoM {
+            display: none;
+        }
+
+        div.bannerM {
+            display: none;
+        }
+
+        header.container {
+            height: 65px;
+        }
+
+        img#banimg1 {
+            height: 7vw;
+        }
+
+        nav {
+            padding-left: 10px;
+        }
+
+        nav a {
+            display: inline-block;
+            letter-spacing: -2px;
+        }
+
+        div.newsbar {}
+    }
