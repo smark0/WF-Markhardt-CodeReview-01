@@ -178,6 +178,10 @@
         width: 100%;
     }
 
+    .spacer2 {
+        height: 100px;
+    }
+
     footer {
         height: 200px;
         background-color: black;
@@ -221,11 +225,20 @@
             margin-top: 1.5vw;
         }
 
+        div.fleximg2 {
+            width: 49%;
+            margin-top: 1.5vw;
+        }
+
         p#date {
             display: none;
         }
 
         a.hoM {
+            display: none;
+        }
+
+        div.spacer {
             display: none;
         }
 
@@ -252,13 +265,19 @@
         div.newsbar {
             margin-left: 0px;
             padding-left: 2.5vw;
+            margin-top: 1.5vw;
         }
 
         div.mobileIMG {
             display: initial;
+            width: 49%
         }
 
         div.flex1 {
+            margin-left: 0vw;
+        }
+
+        div.flex3 {
             margin-left: 0vw;
         }
 
@@ -266,10 +285,26 @@
             font-size: 11px;
             line-height: 12px;
         }
+        div.text-block-bot {
+            font-size: 11px;
+            line-height: 12px;
+        }  
+
+        div.spacer2 {
+            height: 50px;
+        }
+
+        div.footimg {
+            display: block;
+        }      
 
         p.nb2 {
             margin-block-start: 1.5vw;
             margin-block-end: 1.5vw;
+        }
+
+        a.mobcen {
+            padding-left: 40px
         }
 
     }
