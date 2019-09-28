@@ -307,4 +307,16 @@
             padding-left: 40px
         }
 
+        img.filpic {
+            width: 75%
+        }
+
+        h6 {
+            font-size: 12px;
+        }
+
+        article p {
+            font-size: 18px;
+        }
+
     }
